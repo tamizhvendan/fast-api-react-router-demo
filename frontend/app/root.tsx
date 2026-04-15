@@ -17,8 +17,6 @@ export default function App() {
        <title>Hello FDE</title> 
       </head>
       <body>
-          <p>Individual Pages Render Below</p>
-          <br/>
         <Outlet></Outlet>
       </body>
     </html>
