@@ -16,3 +16,8 @@ async def root():
 @app.get("/api/vendors")
 async def get_vendors():
     return [{"name" : "Ram"}]
+
+
+@app.get("/{rest_of_path:path}")
+async def catch_all(rest_of_path: str):
+    return FileResponse(path=os.path.join("frontend", "build", "client", "index.html"))

@@ -77,3 +77,7 @@ Hot Module Replacement (HMR)
 * Serving
  
 Reducing the complexity, Achieving the outcome. 
+
+Backend Routing Logic
+"/api/*" => Handle Logic
+"/*" => Render HTML page
