@@ -81,3 +81,12 @@ Reducing the complexity, Achieving the outcome.
 Backend Routing Logic
 "/api/*" => Handle Logic
 "/*" => Render HTML page
+
+
+CORS => 
+
+
+milkman
+
+api.milkman.com => backend server
+app.milkman.com => frontend run (CDN)

@@ -15,7 +15,11 @@ async def root():
 
 @app.get("/api/vendors")
 async def get_vendors():
-    return [{"name" : "Ram"}]
+    return [{"name" : "Ram"}, {"name" : "Akbar"}]
+
+@app.get("/api/customers")
+async def get_vendors():
+    return [{"name" : "John"}, {"name" : "Syed"}]
 
 
 @app.get("/{rest_of_path:path}")

@@ -13,6 +13,9 @@ import "./app.css";
 export default function App() {
   return (
     <html>
+      <head>
+       <title>Hello FDE</title> 
+      </head>
       <body>
           <p>Individual Pages Render Below</p>
           <br/>
